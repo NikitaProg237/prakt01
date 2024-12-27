@@ -1,0 +1,14 @@
+start
+:**Ввод**(R,N);
+switch (N)
+case (1)
+:H = ("R="+ R);
+case (2)
+:H = ("D="+2 * R);
+case (3)
+:H = ("L="+2 *Math.PI * R);
+case (4)
+:H = ("S="+Math.PI * R);
+endswitch
+:**Вывод** (Н);
+stop

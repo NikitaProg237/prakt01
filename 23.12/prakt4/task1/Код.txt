@@ -1,0 +1,24 @@
+start
+:**Ввод**(CC,NN);
+switch (CC)
+case (1)
+:H = ("Север");
+case (2)
+:H = ("Запад");
+case (3)
+:H = ("ЮГ");
+case (4)
+:H = ("Восток");
+endswitch
+switch (NN)
+case (0)
+:H = ("продолжать движение");
+break;
+case (1)
+:H = ("поворот налево");
+break;
+case (-1)
+:H = ("поворот направо");
+endswitch
+:**Вывод** (Н);
+stop
